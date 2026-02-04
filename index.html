@@ -1,106 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
     <title>Environmental Awareness Portal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    />
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    >
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">EcoAware</a>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EcoAware</a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="HTML\about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="HTML\issues.html">Issues</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="HTML\solutions.html">Solutions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="HTML\initiatives.html">Initiatives</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="HTML\contact.html">Contact</a>
-            </li>
-          </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML/issues.html">Issues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML/solutions.html">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML/initiatives.html">Initiatives</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="HTML/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-    
+
     <!-- Hero Section -->
-    <section class="text-center p-5 bg-light">
-      <div class="container">
-        <h1 class="mb-3">Environmental Awareness for College Students</h1>
-        <p class="lead">
-          Learn about environmental issues, sustainable practices, and how
-          students can contribute to a greener future.
-        </p>
-      </div>
-    </section>
-    
-    <!-- Banner Section -->
-<section class="my-5">
-    <div style="
-        background-image: url('https://i.pinimg.com/1200x/a4/1b/6a/a41b6a1815cb5af4f5ed504b99864ab8.jpg');
-        height: 260px;
-        background-size: cover;
-        background-position: center;">
-        <div style="
-            background: rgba(0,0,0,0.45);
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;">
-            <h2 class="text-white fw-bold text-center">
-                SMALL STEPS TODAY CREATE A GREENER TOMORROW 
-            </h2>
+    <section class="text-center py-5 bg-light">
+        <div class="container">
+            <h1 class="mb-3">Environmental Awareness for College Students</h1>
+            <p class="lead">
+                Learn about environmental issues, sustainable practices, and how
+                students can contribute to a greener future.
+            </p>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="my-5">
+        <div
+            class="d-flex align-items-center justify-content-center"
+            style="
+                background-image: url('https://i.pinimg.com/1200x/a4/1b/6a/a41b6a1815cb5af4f5ed504b99864ab8.jpg');
+                height: 260px;
+                background-size: cover;
+                background-position: center;
+            "
+        >
+            <div
+                class="w-100 h-100 d-flex align-items-center justify-content-center"
+                style="background: rgba(0, 0, 0, 0.45);"
+            >
+                <h2 class="text-white fw-bold text-center">
+                    SMALL STEPS TODAY CREATE A GREENER TOMORROW
+                </h2>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section class="container my-5 text-center">
-      <h2>About This Portal</h2>
-      <p>
-        This portal is created to spread awareness among college students about
-        environmental issues and sustainable practices.
-      </p>
-      <a href="about.html" class="btn btn-success mt-2"> Read More </a>
+        <h2>About This Portal</h2>
+        <p>
+            This portal is created to spread awareness among college students about
+            environmental issues and sustainable practices.
+        </p>
+        <a href="HTML/about.html" class="btn btn-success mt-2">Read More</a>
     </section>
 
-
     <!-- Footer -->
-    <footer class="bg-success text-white text-center p-3">
-      <p class="mb-0">© 2026 Environmental Awareness Portal</p>
+    <footer class="bg-success text-white text-center py-3">
+        <p class="mb-0">© 2026 Environmental Awareness Portal</p>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+
+</body>
 </html>

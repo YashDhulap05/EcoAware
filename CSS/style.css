@@ -1,5 +1,9 @@
-/* General body styling */
-html, body {
+/* ==============================
+   Global Reset & Layout
+============================== */
+
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -7,42 +11,39 @@ html, body {
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-
-    display: flex;
-    flex-direction: column;
+    background-color: #ffffff;
 }
 
-/* Main content wrapper */
-main {
-    flex: 1;
-}
+/* ==============================
+   Typography
+============================== */
 
-/* Hero section heading */
 h1 {
-    color: #2e7d32;
+    color: #2e7d32; /* Eco green */
 }
 
-/* Section spacing */
+/* ==============================
+   Sections
+============================== */
+
 section {
     padding: 20px 0;
 }
 
-/* Footer */
-footer {
-    font-size: 14px;
-}
+/* ==============================
+   Navbar
+============================== */
 
-/* Navbar brand styling */
 .navbar-brand {
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.tilted-img {
-    opacity: 0.7;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
 
-.tilted-img:hover {
-    opacity: 1;
+/* ==============================
+   Footer
+============================== */
+
+footer {
+    font-size: 14px;
 }
